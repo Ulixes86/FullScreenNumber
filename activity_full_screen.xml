@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:screenOrientation="landscape"
+    android:theme="@style/ThemeOverlay.NumberBoard.FullscreenContainer"
+    tools:context=".FullScreen">
+
+    <TextView
+        android:id="@+id/koncna"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:letterSpacing="-0.05"
+        android:singleLine="true"
+        android:text="@string/display"
+        app:autoSizeMaxTextSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+</RelativeLayout>
