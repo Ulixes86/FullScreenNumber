@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/enaBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="enaBTN"
+                android:text="@string/ena"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+
+            <Button
+                android:id="@+id/dvaBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="dvaBTN"
+                android:text="@string/dva"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/triBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="triBTN"
+                android:text="@string/tri"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/stiriBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="stiriBTN"
+                android:text="@string/stiri"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/petBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="petBTN"
+                android:text="@string/pet"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/sestBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="sestBTN"
+                android:text="@string/sest"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/sedemBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="sedemBTN"
+                android:text="@string/sedem"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/osemBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="osemBTN"
+                android:text="@string/osem"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/devetBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="devetBTN"
+                android:text="@string/devet"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/pocistiBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:backgroundTint="#DD2C00"
+                android:onClick="pocistiBTN"
+                android:text="@string/pocisti"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                android:id="@+id/nicBTN"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="0dp"
+                android:layout_height="96dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/krog"
+                android:onClick="nicBTN"
+                android:text="@string/nic"
+                android:textColor="#FFFFFF"
+                android:textSize="64sp" />
+
+            <Button
+                  android:id="@+id/minusBTN"
+                  style="@style/Widget.AppCompat.Button.Borderless"
+                  android:layout_width="0dp"
+                  android:layout_height="96dp"
+                  android:layout_margin="5dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/krog"
+                  android:backgroundTint="#3F51B5"
+                  android:onClick="minusBTN"
+                  android:text="@string/minus"
+                  android:textColor="#FFFFFF"
+                  android:textSize="64sp" />
+
+          </TableRow>
+
+          <TableRow
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+              <Button
+                  android:id="@+id/povecajBTN"
+                  style="@style/Widget.AppCompat.Button.Borderless"
+                  android:layout_width="0dp"
+                  android:layout_height="128dp"
+                  android:layout_margin="5dp"
+                  android:layout_weight="1"
+                  android:background="@drawable/krog"
+                  android:backgroundTint="#43A047"
+                  android:onClick="povecajBTN"
+                  android:text="@string/povecaj"
+                  android:textColor="#FFFFFF"
+                  android:textSize="72sp" />
+          </TableRow>
+      </TableLayout>
+
+      <TextView
+          android:id="@+id/namig"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp"
+          android:layout_marginTop="16dp"
+          android:layout_marginEnd="16dp"
+          android:layout_marginBottom="16dp"
+          android:autofillHints="false"
+          android:inputType="none"
+          android:text="@string/namig"
+          android:textAlignment="center"
+          android:textSize="20sp"
+          app:layout_constraintBottom_toTopOf="@id/input"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+          tools:ignore="LabelFor" />
+
+      <View
+          android:id="@+id/divider"
+          android:layout_width="0dp"
+          android:layout_height="1dp"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="?android:attr/listDivider"
+          app:layout_constraintBottom_toTopOf="@+id/input"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/namig" />
+
+      <EditText
+          android:id="@+id/input"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:layout_marginBottom="16dp"
+          android:autofillHints="false"
+          android:inputType="none"
+          android:text="@string/display"
+          android:textAlignment="textEnd"
+          android:textSize="96sp"
+          app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@+id/namig"
+          tools:ignore="LabelFor,SpeakableTextPresentCheck" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
