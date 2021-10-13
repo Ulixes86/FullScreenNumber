@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Number board</string>
+
+    <string name="ena">1</string>
+    <string name="dva">2</string>
+    <string name="tri">3</string>
+    <string name="stiri">4</string>
+    <string name="pet">5</string>
+    <string name="sest">6</string>
+    <string name="sedem">7</string>
+    <string name="osem">8</string>
+    <string name="devet">9</string>
+    <string name="nic">0</string>
+    <string name="pocisti">C</string>
+    <string name="minus">-</string>
+    <string name="povecaj">Povečaj</string>
+    <string name="display">123-4</string>
+
+    <string name="namig">Vpiši številko pesmi in kitico npr. 123-4</string>
+
+</resources>
